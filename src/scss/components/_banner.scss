@@ -119,6 +119,7 @@
 
 	&__scroll-link {
 		color: #fff;
+		transition: color 0.2s ease-in;
 		&::after {
 			content: "";
 			position: absolute;
@@ -152,6 +153,10 @@
 		left: 60%;
 		position: absolute;
 		z-index: 150;
+		transition: transform 0.2s ease-in;
+		&:hover {
+			transform: scale(1.1);
+		}
 	}
 
 	&__play-video-img {
