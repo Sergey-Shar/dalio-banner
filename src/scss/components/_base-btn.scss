@@ -1,0 +1,29 @@
+.base-button {
+	position: relative;
+	text-align: center;
+	font-size: 16px;
+	padding: 16px 55px 16px 24px;
+	border: 2px solid #fff;
+	border-radius: 30px;
+	transition: background-color 0.2s ease-in;
+	&:hover {
+		background-color: #e3ac22;
+	}
+	&::before {
+		content: "";
+		position: absolute;
+		background: url("../../assets/icons/arrow-up.svg");
+		width: 20px;
+		height: 11px;
+		right: 26.5px;
+		top: 20.25px;
+	}
+	&--yellow {
+		background-color: #ffc93e;
+		color: #0a142f;
+		border: none;
+		&::before {
+			background: url("../../assets/icons/arrow-up-dark.svg");
+		}
+	}
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./src/styles/css/main.min.css" />
+        <script defer src="./src/scripts/index.js"></script>
+		<title>banner</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<nav class="header__navigation">
+					<a class="header__logo-ankor" href="#">
+						<img
+							class="header__logo-image"
+							src="./src/assets/images/dalio-logo.svg"
+							alt="Dalio logotype"
+						/>
+					</a>
+					<div class="header__menu-links">
+						<a class="header__menu-link" href="#">About us</a>
+						<a class="header__menu-link" href="#">What We do</a>
+						<a class="header__menu-link" href="#">Our work</a>
+						<a class="header__menu-link" href="#">Blog</a>
+						<a class="header__menu-link" href="#">Say hi</a>
+					</div>
+					<button class="menu-burger">
+                        <span class="menu-burger__line"></span>
+                    </button>
+				</nav>
+			</div>
+		</header>
+		<section class="banner">
+			<div class="container banner__container">
+				<div class="banner__content">
+					<div class="banner__main">
+						<div class="banner__title-block">
+							<img
+								class="banner__world-class"
+								src="./src/assets/images/world-class.svg"
+								alt="
+                        Decorative picture with the inscription world class"
+							/>
+							<h1 class="banner__title">
+								Digital
+								<span class="banner__title banner__title--left">Agency</span>
+							</h1>
+							<picture class="banner__decore-line">
+								<source
+									class="banner__decore-line--max"
+									media="(min-width:1200px)"
+									srcset="./src/assets/images/decore-line.svg"
+								/>
+								<img
+									class="banner__decore-line--min"
+									src="./src/assets/images/decore-line-min.svg"
+									alt="picture decore line"
+								/>
+							</picture>
+						</div>
+						<p class="banner__subtitle">
+							Full-service design support that growing B2B companies need. World
+							leading agency.
+						</p>
+						<button class="base-button base-button--yellow" type="button">
+							Our Projects
+						</button>
+					</div>
+					<div class="banner__scroll">
+						<a class="banner__scroll-link" href="#"> Scroll Down </a>
+					</div>
+					<div class="banner__video">
+						<img
+							class="banner__video-image"
+							src="./src/assets/images/video-img.png"
+							alt="Two girls working on a laptop"
+						/>
+						<button class="banner__video-play-btn">
+							<img
+								class="banner__play-video-img"
+								src="./src/assets/images/play-video.png"
+								alt="video play button"
+							/>
+						</button>
+					</div>
+					<div class="banner__decore-image">
+						<img
+							class="banner__image"
+							src="./src/assets/images/meeting.png"
+							alt="image from the meeting"
+						/>
+						<img
+							class="banner__ornament"
+							src="./src/assets/images/ornament.png"
+							alt=" decore image"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
